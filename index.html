@@ -8,11 +8,14 @@
 </head>
 <body>
     hello world~!
-    <button>클릭</button>
+    <button class="btn1">버튼1</button><button class="btn2">버튼2</button><button>클릭</button><button>클릭</button>
     <hr>  
     <script>
-      document.querySelector('button').addEventListener('click',()=>{
-                                                          window.alert('hi');
+      document.querySelector('.btn1').addEventListener('click',()=>{
+                                                          window.alert('안녕');
+      },false);
+      document.querySelector('.btn2').addEventListener('click',()=>{
+                                                          window.alert('하세요');
       },false);
     </script>
   </body>
